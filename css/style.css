@@ -1,0 +1,42 @@
+/* Poppins import link*/
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+/* Font-family: Poppins */
+body {
+	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
+}
+
+.bg-blur-black {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(10px);
+}
+
+.hero {
+	height: 100vh;
+
+	/* random image unsplash */
+	background-image: url("https://source.unsplash.com/random?restaurant");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.panel-content {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(3px);
+}
+
+.text-title {
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width: 767px) {
+	.hero-img img{
+		display: none;
+	}
+}
